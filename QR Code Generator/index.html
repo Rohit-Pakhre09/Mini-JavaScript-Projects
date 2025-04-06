@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- QR Code Generator CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <!-- Favicon Link -->
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=TYZP6liMd2uZ&format=png&color=000000"> 
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <p>QR Code Generator</p>
+
+        <div class="straight-info">
+            <input type="text" id="input-text" placeholder="Enter any text or URL..." autocomplete="off">
+            <button onclick="qrcode()">Generate</button>
+
+            <div id="qr-code"></div>
+        </div>
+
+    </div>
+
+    <!-- JAVASCRIPT Code -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
