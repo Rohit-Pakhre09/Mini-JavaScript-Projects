@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Digital-7";
+  src: url("./fonts/digital-7.woff2") format("woff2"),
+    url("./fonts/digital-7.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(34, 33, 33);
+  user-select: none;
+}
+
+.calculator {
+  height: auto;
+  width: 500px;
+  background-color: #b9b9b9;
+  border-radius: 25px;
+  box-shadow: 0px 0px 40px rgba(116, 106, 106, 0.4);
+}
+
+#display {
+  height: 150px;
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 100px;
+  overflow: hidden;
+  text-align: right;
+  font-family: "Digital-7", sans-serif;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(44, 42, 42);
+}
+
+button {
+  height: 100px;
+  color: white;
+  border: none;
+  background-color: #585454;
+  border-radius: 40px;
+  font-size: 25px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: #9e9797;
+}
+
+#buttons button:nth-child(17) {
+  grid-column: span 2;
+}
+
+#buttons button:nth-child(1) {
+  background-color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#buttons button:nth-child(1):hover {
+  background-color: rgb(255, 74, 74);
+}
+
+#buttons button:nth-child(4),
+#buttons button:nth-child(8),
+#buttons button:nth-child(12),
+#buttons button:nth-child(16),
+#buttons button:nth-child(19) {
+  background-color: #feaf31;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#buttons button:nth-child(2) {
+  background-color: grey;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#buttons button:nth-child(3) {
+  background-color: #feaf31;
+}
+
+#buttons button:nth-child(2):hover {
+  background-color: #9e9797;
+}
+
+#buttons button:nth-child(4):hover,
+#buttons button:nth-child(8):hover,
+#buttons button:nth-child(12):hover,
+#buttons button:nth-child(16):hover,
+#buttons button:nth-child(19):hover {
+  background-color: #f19500;
+}
