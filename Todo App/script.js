@@ -45,30 +45,6 @@ function addtask(value) {
   // Append checkbox & text.
   textContainer.append(checkbox, text);
 
-  // Toggle.
-  checkbox.addEventListener("click", () => {
-    checkbox.classList.toggle("active");
-
-    if (checkbox.classList.contains("active")) {
-      text.style.textDecoration = "line-through";
-      text.style.color = "grey";
-      newtask.style.backgroundColor = "rgb(216, 216, 216)";
-      editEl.style.color = "grey";
-      text.style.fontStyle = "italic";
-      text.style.transition = "all .2s ease-in-out";
-      editEl.style.pointerEvents = "none";
-      editEl.style.cursor = "not-allowed";
-    } else {
-      text.style.textDecoration = "none";
-      text.style.fontStyle = "normal";
-      text.style.color = "black";
-      newtask.style.backgroundColor = "lightgoldenrodyellow";
-      editEl.style.color = "red";
-      editEl.style.pointerEvents = "auto";
-      editEl.style.cursor = "pointer";
-    }
-  });
-
   // Icon Container.
   let iconContainer = document.createElement("div");
   iconContainer.className = "icon-container";
@@ -81,6 +57,34 @@ function addtask(value) {
   let editEl = document.createElement("i");
   editEl.className = "fa-solid fa-pencil edit";
 
+  // Trash.
+  let trashEl = document.createElement("i");
+  trashEl.className = "fa-solid fa-trash";
+
+  // Toggle.
+  checkbox.addEventListener("click", () => {
+    checkbox.classList.toggle("active");
+
+    if (checkbox.classList.contains("active")) {
+      text.style.textDecoration = "line-through";
+      text.style.color = "grey";
+      newtask.style.backgroundColor = "rgb(216, 216, 216)";
+      editEl.style.color = "grey";
+      text.style.fontStyle = "italic";
+      text.style.transition = "all .2s ease-in-out";
+      editEl.style.cursor = "no-drop";
+    } else {
+      text.style.textDecoration = "none";
+      text.style.fontStyle = "normal";
+      text.style.color = "black";
+      newtask.style.backgroundColor = "lightgoldenrodyellow";
+      editEl.style.color = "red";
+      editEl.style.pointerEvents = "auto";
+      editEl.style.cursor = "pointer";
+    }
+  });
+
+  // Edit Logic
   editEl.addEventListener("click", () => {
     input.value = text.textContent.trim();
     isEdit = true;
@@ -90,12 +94,15 @@ function addtask(value) {
     text.innerText = "loading...";
     text.style.color = "grey";
     msg.innerText = "Press Enter after editing the task.";
+
+    // Disable checkbox and trash during editing
+    checkbox.style.pointerEvents = "none";
+    checkbox.style.cursor = "no-drop";
+    trashEl.style.pointerEvents = "none";
+    trashEl.style.cursor = "no-drop";
   });
 
-  // Trash.
-  let trashEl = document.createElement("i");
-  trashEl.className = "fa-solid fa-trash";
-
+  // Delete Logic
   trashEl.addEventListener("click", () => {
     let index = todos.indexOf(value);
     if (index !== -1) {
@@ -166,6 +173,19 @@ btn.addEventListener("click", () => {
     replaceText.style.color = "black";
     todos[editIndex] = value;
     saveTodos();
+
+    // Re-enable the checkbox and trash icon after editing
+    let parent = replaceText.closest(".new-task");
+    if (parent) {
+      const checkbox = parent.querySelector(".checkbox");
+      const trashEl = parent.querySelector(".fa-trash");
+      if (checkbox && trashEl) {
+        checkbox.style.pointerEvents = "auto";
+        checkbox.style.cursor = "pointer";
+        trashEl.style.pointerEvents = "auto";
+        trashEl.style.cursor = "pointer";
+      }
+    }
 
     input.value = "";
     msg.textContent = "";
