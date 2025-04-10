@@ -144,7 +144,7 @@ function addtask(value) {
 // Task Title.
 function updateText() {
   if (todos.length === 0) {
-    taskMsg.textContent = "No Tasks created yet!";
+    taskMsg.textContent = "No Plans created yet!";
     taskMsg.style.color = "grey";
   } else {
     taskMsg.textContent = "Here are the tasks to do!";
