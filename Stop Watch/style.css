@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    user-select: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 23, 23);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+}
+
+#title {
+    font-size: 50px;
+    margin-right: 200px;
+    color: wheat;
+}
+
+#time {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 55px;
+    gap: 20px;
+    color: rgb(107, 107, 107);
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.315);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(20px);
+    --webkit-backdrop-filter: blur(20px);
+}
+
+#hrs,
+#min,
+#secs {
+    height: 100px;
+    width: 95px;
+    color: rgb(184, 184, 184);
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2) inset;
+}
+
+#millisec {
+    height: 40px;
+    width: 50px;
+    font-size: 25px;
+    color: red;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2) inset;
+}
+
+.buttons {
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.315);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(20px);
+    --webkit-backdrop-filter: blur(20px);
+}
+
+#stop,
+#reset {
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+#play {
+    font-size: 60px;
+    cursor: pointer;
+    color: red;
+    transition: all .3s ease-in-out;
+}
+
+#stop:hover,
+#play:hover,
+#reset:hover {
+    transform: scale(1.2);
+}
