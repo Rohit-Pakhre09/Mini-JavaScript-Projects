@@ -59,6 +59,36 @@
 <h1>🔢 Counter App </h1> <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/1a50f9ed7d60812c9d14872fbe67183dc4a6279d/Counter/Assets/Counter.png"> <h3>🔗 Directory Link : <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Counter">https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Counter</a></h3> <p>This is a sleek and modern <strong>Counter Application</strong> developed using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. The app provides a smooth and intuitive interface for performing basic arithmetic operations with a single click. Designed for simplicity and functionality, the counter allows users to increase, decrease, multiply, or divide values in real time.</p> <p><strong>✨ Features</strong></p> <p>➕ <strong>Increment</strong>: Adds 1 to the current count value.<br> ➖ <strong>Decrement</strong>: Subtracts 1 from the current count value.<br> ✖️ <strong>Multiply (×2)</strong>: Doubles the current value.<br> ➗ <strong>Divide (÷2)</strong>: Halves the current value.<br> 🔄 <strong>Reset</strong>: Instantly resets the counter back to 0.<br> 🎨 <strong>Modern UI</strong>: Clean and visually appealing layout for a better user experience.<br> ⚡ <strong>Real-Time Updates</strong>: Instant feedback for every operation using JavaScript.</p> <p><strong>📁 Technologies Used</strong><br> <strong>HTML5</strong> – Structural layout of the counter interface<br> <strong>CSS3</strong> – Styling with modern and responsive design principles<br> <strong>JavaScript</strong> – Handles all dynamic arithmetic operations and interactivity</p>
 <hr>
 
+<h1>⏱️ Stopwatch App</h1>
+<img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/26567393893c6f9722081a7366c2722bcc8a434f/Stop%20Watch/Assets/StopWatch.png">
+
+<h3>🔗 Directory Link :
+  <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Stop%20Watch">
+    https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Stopwatch
+  </a>
+</h3>
+
+<p>
+  This is a polished and functional <strong>Stopwatch Application</strong> built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. The app provides an intuitive interface to track time accurately down to milliseconds. It's ideal for timing tasks, exercises, or any activity where precision matters.
+</p>
+
+<p><strong>✨ Features</strong></p>
+<p>
+  🕐 <strong>Time Display</strong>: Shows hours, minutes, seconds, and milliseconds in a clear format.<br>
+  ▶️ <strong>Start</strong>: Begins the timer with millisecond-level accuracy.<br>
+  ⏸️ <strong>Pause</strong>: Halts the stopwatch without resetting the current time.<br>
+  🔁 <strong>Reset</strong>: Resets the entire timer to 00:00:00:00 instantly.<br>
+  🧠 <strong>Accurate Time Tracking</strong>: Uses JavaScript timing functions for consistent and smooth time updates.<br>
+  🖥️ <strong>Minimal & Modern UI</strong>: Clean layout with clearly labeled controls for a distraction-free experience.
+</p>
+
+<p><strong>📁 Technologies Used</strong><br>
+  <strong>HTML5</strong> – Structured the visual layout and timer components<br>
+  <strong>CSS3</strong> – Styled the stopwatch interface with modern design elements<br>
+  <strong>JavaScript</strong> – Controls the timing logic, display updates, and user interaction handling
+</p>
+<hr>
+
 <h1>🌈 Dynamic Color Changer</h1>
 <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/1a50f9ed7d60812c9d14872fbe67183dc4a6279d/Dynamic%20Background%20Colour/Assets/Dynamic-Colour-Changer.png">
 <h3>🔗 Directory Link : <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Dynamic%20Background%20Colour">https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Dynamic%20Background%20Colour</a></h3>
