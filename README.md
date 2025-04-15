@@ -23,6 +23,39 @@
 <strong>JavaScript</strong> – Dynamic functionality and real-time updates</p>
 <hr>
 
+<h1>🔔 Toast Notification</h1> 
+<img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/1ac8662dd46162a0999554307da927d79f8034be/Toast%20Notification/Assets/Toast%20Notification.png" alt="Toast Notification Screenshot">
+
+<h3>🔗 Directory Link : 
+    <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Toast%20Notification">
+        https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Toast-Notification
+    </a>
+</h3>
+
+<p>
+    This is a modern and animated <strong>Toast Notification Component</strong> built using 
+    <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. 
+    Designed to mimic real-world app feedback systems, it shows temporary alerts like success, error, info, and warning – 
+    each with unique styles and transitions for an enhanced user experience.
+</p>
+
+<p><strong>✨ Features</strong></p>
+<p>
+✅ <strong>Multiple Notification Types</strong>: Success, Error and Warning alerts<br>
+🔁 <strong>Auto & Manual Dismiss</strong>: Notifications disappear after a few seconds or can be closed manually<br>
+🎯 <strong>Dynamic Messages</strong>: Content is dynamically inserted using JavaScript<br>
+💡 <strong>Smooth Animations</strong>: Entry/exit transitions enhance UI appeal<br>
+🖥️ <strong>Desktop View</strong>: Built for desktop devices (non-responsive layout)<br>
+</p>
+
+<p><strong>📁 Technologies Used</strong><br>
+<strong>HTML5</strong> – Structure for toast layout and trigger buttons<br>
+<strong>CSS3</strong> – Styling, transitions, and responsive look (optional)<br>
+<strong>JavaScript</strong> – DOM interaction, dynamic message rendering, and timers
+</p>
+<hr>
+
+
 <h1>🔢 Counter App </h1> <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/1a50f9ed7d60812c9d14872fbe67183dc4a6279d/Counter/Assets/Counter.png"> <h3>🔗 Directory Link : <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Counter">https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Counter</a></h3> <p>This is a sleek and modern <strong>Counter Application</strong> developed using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. The app provides a smooth and intuitive interface for performing basic arithmetic operations with a single click. Designed for simplicity and functionality, the counter allows users to increase, decrease, multiply, or divide values in real time.</p> <p><strong>✨ Features</strong></p> <p>➕ <strong>Increment</strong>: Adds 1 to the current count value.<br> ➖ <strong>Decrement</strong>: Subtracts 1 from the current count value.<br> ✖️ <strong>Multiply (×2)</strong>: Doubles the current value.<br> ➗ <strong>Divide (÷2)</strong>: Halves the current value.<br> 🔄 <strong>Reset</strong>: Instantly resets the counter back to 0.<br> 🎨 <strong>Modern UI</strong>: Clean and visually appealing layout for a better user experience.<br> ⚡ <strong>Real-Time Updates</strong>: Instant feedback for every operation using JavaScript.</p> <p><strong>📁 Technologies Used</strong><br> <strong>HTML5</strong> – Structural layout of the counter interface<br> <strong>CSS3</strong> – Styling with modern and responsive design principles<br> <strong>JavaScript</strong> – Handles all dynamic arithmetic operations and interactivity</p>
 <hr>
 
