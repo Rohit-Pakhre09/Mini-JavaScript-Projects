@@ -23,6 +23,9 @@
 <strong>JavaScript</strong> – Dynamic functionality and real-time updates</p>
 <hr>
 
+<h1>💬 Quote Generator App</h1> <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/5e02b81168f22b5b83813eb76df84672ffa2f86c/Quote%20Generator/Assets/Quote%20Generator.png" alt="Quote Generator Screenshot"> <h3>🔗 Directory Link: <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote%20Generator"> https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote-Generator </a> </h3> <p> This is a sleek and interactive <strong>Quote Generator Web App</strong> built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It fetches real-time quotes from a public API and offers a smooth user experience with key features like quote sharing, copy functionality, and a like toggle system — all bundled in a modern UI design. </p> <p><strong>✨ Features</strong></p> <p> ✅ <strong>Real-Time Quotes</strong>: Dynamically fetches random quotes from a public REST API<br> 📋 <strong>Copy to Clipboard</strong>: Instantly copies the quote with a "Copied!" indicator and icon animation<br> 🔁 <strong>Next Quote Button</strong>: Loads a new random quote with each click<br> ❤️ <strong>Like Functionality</strong>: Toggle between liked/unliked state with red heart animation<br> 📤 <strong>Share to WhatsApp</strong>: Seamlessly share the quote directly via WhatsApp without any popups<br> 🎨 <strong>Modern UI</strong>: A clean, minimal, desktop-focused layout with subtle transitions and icon feedback<br> </p> <p><strong>📁 Technologies Used</strong><br> <strong>HTML5</strong> – Markup structure for the quote layout and UI components<br> <strong>CSS3</strong> – Styling, transitions, and icon animations for dynamic user feedback<br> <strong>JavaScript (ES6+)</strong> – API fetching, DOM manipulation, clipboard functionality, like toggles, and WhatsApp share integration<br> </p>
+<hr>
+
 <h1>🔔 Toast Notification</h1> 
 <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/1ac8662dd46162a0999554307da927d79f8034be/Toast%20Notification/Assets/Toast%20Notification.png" alt="Toast Notification Screenshot">
 
@@ -47,6 +50,7 @@
 💡 <strong>Smooth Animations</strong>: Entry/exit transitions enhance UI appeal<br>
 🖥️ <strong>Desktop View</strong>: Built for desktop devices (non-responsive layout)<br>
 </p>
+<hr>
 
 <p><strong>📁 Technologies Used</strong><br>
 <strong>HTML5</strong> – Structure for toast layout and trigger buttons<br>
