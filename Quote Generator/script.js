@@ -27,7 +27,6 @@ function copyQuote() {
 
     navigator.clipboard.writeText(quoteText)
         .then(() => {
-            copy.classList.add("copyIcon")
             copy.innerHTML = '<i class="fa-solid fa-circle-check" style="margin-right: 10px; font-size: 20px;"></i> Copied!';
             copy.style.color = "green";
 
