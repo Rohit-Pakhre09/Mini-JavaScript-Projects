@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 33, 33);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 800px;
+    border: none;
+    border-radius: 15px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+    padding: 30px;
+}
+
+#title {
+    font-size: 35px;
+    color: #8B4513;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    margin: 15px 0px;
+}
+
+.info {
+    flex-grow: 1;
+    font-size: 25px;
+    position: relative;
+}
+
+#quotes {
+    word-spacing: 2px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#author {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    border-top: 1px solid rgba(2, 2, 2, 0.212);
+}
+
+.text {
+    height: 90px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#change {
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: all .1s ease-in-out;
+}
+
+#change:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+#copy {
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: all .1s ease-in-out;
+}
+
+#copy i {
+    transition: all .2s ease-in-out;
+}
+
+#copy:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+.fa-copy {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.icons {
+    width: 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-heart,
+.fa-whatsapp {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icons i {
+    transition: all .1s ease-in-out;
+}
+
+.fa-heart:hover,
+.fa-whatsapp:hover {
+    transform: scale(1.2);
+}
