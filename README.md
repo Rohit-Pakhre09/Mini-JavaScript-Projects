@@ -23,6 +23,32 @@
 <strong>JavaScript</strong> – Dynamic functionality and real-time updates</p>
 <hr>
 
+<h1>🎵 Modern Music Player</h1> 
+<img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/d3228ac1f9e4b597a8eb0eeec9f470d97614abd7/Music%20Player/Assets/Music%20Player.png" alt="Modern Music Player Screenshot"> 
+
+<h3>🔗 <strong>Directory Link</strong>: 
+<a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Music%20Player">
+https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Music%20Player</a>
+</h3>
+
+<p>This is a visually rich and interactive <strong>Music Player</strong> designed specifically for desktop view, built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. Featuring a modern user interface and a video background, this music player provides a calm and engaging listening experience. It comes with built-in song details, real-time synced lyrics, and intuitive playback controls, all styled with a proper effect for a futuristic aesthetic.</p>
+
+<p><strong>✨ Features</strong><br>
+🎬 <strong>Ambient Background Video</strong>: Smoothly looping video adds visual depth and enhances the overall music experience.<br>
+🎼 <strong>Real-Time Lyrics</strong>: View synchronized lyrics for the currently playing track.<br>
+📄 <strong>Song Details Display</strong>: Clearly shows the song title and artist information.<br>
+▶️ <strong>Playback Controls</strong>: Includes play/pause button and 10-second forward/backward skipping for full control.<br>
+🎧 <strong>Spotify Integration</strong>: Direct link to the song on Spotify for streaming.<br>
+🖥️ <strong>Optimized for Desktop</strong>: Designed with large-screen view in mind for an immersive interface.</p>
+
+<p><strong>📁 Technologies Used</strong><br>
+💡 <strong>HTML5</strong> – For structured, semantic layout of audio, video, and content.<br>
+🎨 <strong>CSS3</strong> – For styling, animations, glassmorphism effects, and layout.<br>
+⚙️ <strong>JavaScript (ES6+)</strong> – For audio control logic, time syncing, and dynamic updates.</p>
+
+<hr>
+
+
 <h1>💬 Quote Generator App</h1> <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/5e02b81168f22b5b83813eb76df84672ffa2f86c/Quote%20Generator/Assets/Quote%20Generator.png" alt="Quote Generator Screenshot"> <h3>🔗 Directory Link: <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote%20Generator">https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote%20Generator</a></h3> <p> This is a sleek and interactive <strong>Quote Generator Web App</strong> built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It fetches real-time quotes from a public API and offers a smooth user experience with key features like quote sharing, copy functionality, and a like toggle system — all bundled in a modern UI design. </p> <p><strong>✨ Features</strong></p> <p> ✅ <strong>Real-Time Quotes</strong>: Dynamically fetches random quotes from a public REST API<br> 📋 <strong>Copy to Clipboard</strong>: Instantly copies the quote with a "Copied!" indicator and icon animation<br> 🔁 <strong>Next Quote Button</strong>: Loads a new random quote with each click<br> ❤️ <strong>Like Functionality</strong>: Toggle between liked/unliked state with red heart animation<br> 📤 <strong>Share to WhatsApp</strong>: Seamlessly share the quote directly via WhatsApp without any popups<br> 🎨 <strong>Modern UI</strong>: A clean, minimal, desktop-focused layout with subtle transitions and icon feedback<br> </p> <p><strong>📁 Technologies Used</strong><br> <strong>HTML5</strong> – Markup structure for the quote layout and UI components<br> <strong>CSS3</strong> – Styling, transitions, and icon animations for dynamic user feedback<br> <strong>JavaScript (ES6+)</strong> – API fetching, DOM manipulation, clipboard functionality, like toggles, and WhatsApp share integration<br> </p>
 <hr>
 
