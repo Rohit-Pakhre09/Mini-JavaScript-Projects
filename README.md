@@ -48,6 +48,33 @@ https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Music%20Pla
 
 <hr>
 
+<h1>🌤️ Weather App</h1> 
+<img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/0d8fd69de544164774ae7000137033cc5e165996/Weather%20App/Assets/Media/Weather%20App.png" alt="Weather App Screenshot"> 
+
+<h3>🔗 <strong>Directory Link</strong>: 
+<a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Weather%20App">
+https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Weather%20App</a>
+</h3>
+
+<p>This <strong>Weather App</strong> provides real-time weather updates for any city worldwide. Built using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>, this app fetches data from the <strong>OpenWeather API</strong> to display current weather information in an easy-to-read format. It showcases a clean, desktop-friendly design and offers intuitive features such as temperature, humidity, wind speed, and more. Users can quickly check the weather and get sunrise/sunset times for any city, with dynamically updated weather icons for better visual context.</p>
+
+<p><strong>✨ Features</strong><br>
+🌆 <strong>City-Based Weather</strong>: Get weather information for any city worldwide.<br>
+🌡️ <strong>Current Temperature</strong>: Displays the current temperature in Celsius.<br>
+🌧️ <strong>Weather Condition</strong>: View the general weather status (Clear, Rain, Cloudy, etc.) with an associated icon.<br>
+💨 <strong>Wind Speed & Direction</strong>: Shows the wind speed and its direction in real-time.<br>
+🌅 <strong>Sunrise & Sunset Times</strong>: Displays the exact times for sunrise and sunset based on the city.<br>
+💻 <strong>Desktop-Optimized UI</strong>: Designed for an immersive, responsive experience on large screens.</p>
+
+<p><strong>📁 Technologies Used</strong><br>
+💡 <strong>HTML5</strong> – For the basic structure and semantic layout of the app.<br>
+🎨 <strong>CSS3</strong> – For styling, animations, and responsive design.<br>
+⚙️ <strong>JavaScript (ES6+)</strong> – For API integration, dynamic updates, and interaction logic.<br>
+🔌 <strong>OpenWeather API</strong> – Provides real-time weather data for cities across the globe.</p>
+
+<hr>
+
+
 
 <h1>💬 Quote Generator App</h1> <img src="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/blob/5e02b81168f22b5b83813eb76df84672ffa2f86c/Quote%20Generator/Assets/Quote%20Generator.png" alt="Quote Generator Screenshot"> <h3>🔗 Directory Link: <a href="https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote%20Generator">https://github.com/Rohit-Pakhre09/Mini-JavaScript-Projects/tree/main/Quote%20Generator</a></h3> <p> This is a sleek and interactive <strong>Quote Generator Web App</strong> built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. It fetches real-time quotes from a public API and offers a smooth user experience with key features like quote sharing, copy functionality, and a like toggle system — all bundled in a modern UI design. </p> <p><strong>✨ Features</strong></p> <p> ✅ <strong>Real-Time Quotes</strong>: Dynamically fetches random quotes from a public REST API<br> 📋 <strong>Copy to Clipboard</strong>: Instantly copies the quote with a "Copied!" indicator and icon animation<br> 🔁 <strong>Next Quote Button</strong>: Loads a new random quote with each click<br> ❤️ <strong>Like Functionality</strong>: Toggle between liked/unliked state with red heart animation<br> 📤 <strong>Share to WhatsApp</strong>: Seamlessly share the quote directly via WhatsApp without any popups<br> 🎨 <strong>Modern UI</strong>: A clean, minimal, desktop-focused layout with subtle transitions and icon feedback<br> </p> <p><strong>📁 Technologies Used</strong><br> <strong>HTML5</strong> – Markup structure for the quote layout and UI components<br> <strong>CSS3</strong> – Styling, transitions, and icon animations for dynamic user feedback<br> <strong>JavaScript (ES6+)</strong> – API fetching, DOM manipulation, clipboard functionality, like toggles, and WhatsApp share integration<br> </p>
 <hr>
