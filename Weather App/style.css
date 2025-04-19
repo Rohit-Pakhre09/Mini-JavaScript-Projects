@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Special+Gothic+Expanded+One&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 33, 33);
+}
+
+.container {
+    height: 720px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgba(241, 241, 241, 0.808);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.514), 0px 0px 10px inset rgba(0, 0, 0, 0.281);
+}
+
+main {
+    height: 700px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(111, 204, 235, 0.753);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    overflow: auto;
+    border: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+main::-webkit-scrollbar {
+    height: 1px;
+    width: 1px;
+}
+
+
+#title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.input-section {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 40px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+    color: rgba(78, 78, 78, 0.733);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+#search {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#search:hover {
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
+}
+
+#guide {
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 700;
+    color: red;
+}
+
+.weatherInfo {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-info {
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+#weatherPng {
+    height: 100px;
+    width: 100px;
+}
+
+#temp {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#weatherStatus {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#time {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.h_s {
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.h {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.h img {
+    height: 70px;
+}
+
+.h span {
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+.status-text {
+    font-weight: 700;
+}
+
+.s {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.s img {
+    height: 70px;
+}
+
+.s span {
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.w_s {
+    height: 150px;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wind_direction {
+    height: 150px;
+    width: 47%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.sunTime {
+    height: 150px;
+    width: 47%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+#dataImg {
+    height: 70px;
+}
+
+#data{
+    font-weight: 700;
+}
+
+.windData {
+    font-size: 15px;
+}

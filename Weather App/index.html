@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Js Link -->
+    <script src="script.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=zIVmoh4T8wh7&format=png&color=000000">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <main>
+
+            <!-- Title -->
+            <header>
+                <p id="title">Weather App</p>
+            </header>
+
+            <!-- Input Section -->
+            <section class="input-section">
+                <input type="text" placeholder="Enter the City name" id="input" autocomplete="off">
+                <img src="https://img.icons8.com/?size=100&id=59878&format=png&color=000000" id="search">
+            </section>
+            <div id="guide"></div>
+
+            <!-- Weather Info -->
+            <section class="weatherInfo">
+                <img src="Assets/Icons/loading.png" id="weatherPng">
+                <div id="main-info">
+                    <span id="city" style="font-size: 20px;">--</span>
+                    <span id="temp"></span>
+                    <p id="weatherStatus">--</p>
+                    <div id="time">--</div>
+                </div>
+            </section>
+
+            <!-- Humidity and Speed -->
+            <section class="h_s">
+                <div class="h">
+                    <img
+                        src="https://cdn3d.iconscout.com/3d/premium/thumb/humidity-3d-icon-download-in-png-blend-fbx-gltf-file-formats--weather-humid-forecast-meteorology-pack-nature-icons-6551904.png?f=webp">
+                    <span id="humidity">--</span>
+                    <p class="status-text">Humidity</p>
+                </div>
+
+                <div class="s">
+                    <img src="https://img.icons8.com/?size=100&id=kkGqzPJkguIf&format=png&color=000000">
+                    <span id="wind">--</span>
+                    <p class="status-text">Wind Speed</p>
+                </div>
+            </section>
+
+            <!-- Wind direction and the Sunset and Sunset Point -->
+            <section class="w_s">
+                <div class="wind_direction">
+                    <img src="https://img.icons8.com/?size=100&id=HtAZFTKSquVD&format=png&color=000000" id="dataImg">
+                    <p id="data">Wind Direction</p>
+                    <div class="windData">--</div>
+                </div>
+
+                <div class="sunTime">
+                    <img src="https://img.icons8.com/?size=100&id=6vDvlrFaxNw3&format=png&color=000000" id="dataImg">
+                    <p id="data">Sunrise / Sunset</p>
+                    <div class="windData">--</div>
+                </div>
+            </section> 
+
+        </main>
+    </div>
+
+</body>
+
+</html>
